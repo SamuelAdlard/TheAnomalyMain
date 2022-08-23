@@ -1538,7 +1538,7 @@ GameObject:
   - component: {fileID: 3159562387989635472}
   - component: {fileID: 3035865831200493304}
   m_Layer: 0
-  m_Name: nacked_arms
+  m_Name: arms
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
