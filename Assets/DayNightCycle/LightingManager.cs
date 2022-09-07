@@ -22,7 +22,7 @@ public class LightingManager : MonoBehaviour
             TimeOfDay += Time.deltaTime;
             TimeOfDay %= dayLength; //clamp between 0-24
             UpdateLighting(TimeOfDay / dayLength);
-            print(TimeOfDay);
+            //print(TimeOfDay);
         }
         else
         {
