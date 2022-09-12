@@ -12,8 +12,22 @@ public class PlayerGravity : MonoBehaviour
     {
         
         Velocity.y += Gravity * Time.deltaTime;
-        
-        
+        RaycastHit hit;
+        if(Physics.Raycast(transform.position, Vector3.down, out hit, 1.5f))
+        {
+            if(hit.transform.CompareTag("Ground"))
+            {
+                grounded = true;
+            }
+            else
+            {
+                grounded = false;
+            }
+        }
+        else
+        {
+            grounded = false;
+        }
         if (grounded)
         {
             Velocity.y = 0;
@@ -28,20 +42,5 @@ public class PlayerGravity : MonoBehaviour
         Controller.Move(Velocity * Time.deltaTime);
     }
 
-    private void OnTriggerEnter(Collider other)
-    {
-        print(other.name + " Tag: " +  other.tag);
-        if (other.CompareTag("Ground"))
-        {
-            grounded = true;
-        }
-    }
-
-    private void OnTriggerExit(Collider other)
-    {
-        if (other.CompareTag("Ground"))
-        {
-            grounded = false;
-        }
-    }
+   
 }
