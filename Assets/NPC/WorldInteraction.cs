@@ -22,7 +22,7 @@ public class WorldInteraction : MonoBehaviour
             GameObject interactedObject = interactionInfo.collider.gameObject;
             if (!startedConversation)
             {
-                corruptionLevel = 
+                corruptionLevel = GameObject.Find("World Manager").GetComponent<Corruption>().corruption;
                 if (interactedObject.tag == "InteractableObject")
                 {
                     name.text = interactedObject.GetComponent<NPC>().name;

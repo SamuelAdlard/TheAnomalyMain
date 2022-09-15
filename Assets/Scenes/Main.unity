@@ -1186,7 +1186,7 @@ Transform:
   - {fileID: 1942292970}
   - {fileID: 444693750}
   - {fileID: 878252416}
-  - {fileID: 1822461090}
+  - {fileID: 966015406}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2012,7 +2012,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -65}
+  m_AnchoredPosition: {x: 0, y: -194}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &463672095
@@ -2062,11 +2062,11 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 12
+  m_fontSizeBase: 12
   m_fontWeight: 400
-  m_enableAutoSizing: 1
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 5
   m_fontSizeMax: 72
   m_fontStyle: 0
   m_HorizontalAlignment: 1
@@ -4048,6 +4048,153 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7097ba7ba649e1f41bba232312bdcbd8, type: 3}
+--- !u!1001 &966015405
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 293294704}
+    m_Modifications:
+    - target: {fileID: 2822188623298881352, guid: a19be1ab094601e46ad775184935702a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 2822188623298881352, guid: a19be1ab094601e46ad775184935702a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.888
+      objectReference: {fileID: 0}
+    - target: {fileID: 2822188623298881352, guid: a19be1ab094601e46ad775184935702a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.529
+      objectReference: {fileID: 0}
+    - target: {fileID: 2822188623298881352, guid: a19be1ab094601e46ad775184935702a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2822188623298881352, guid: a19be1ab094601e46ad775184935702a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2822188623298881352, guid: a19be1ab094601e46ad775184935702a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2822188623298881352, guid: a19be1ab094601e46ad775184935702a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2822188623298881352, guid: a19be1ab094601e46ad775184935702a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2822188623298881352, guid: a19be1ab094601e46ad775184935702a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2822188623298881352, guid: a19be1ab094601e46ad775184935702a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2822188623298881352, guid: a19be1ab094601e46ad775184935702a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6724071104002411858, guid: a19be1ab094601e46ad775184935702a,
+        type: 3}
+      propertyPath: m_Name
+      value: The Keeper
+      objectReference: {fileID: 0}
+    - target: {fileID: 7414649972134789761, guid: a19be1ab094601e46ad775184935702a,
+        type: 3}
+      propertyPath: name
+      value: The Forest Keeper
+      objectReference: {fileID: 0}
+    - target: {fileID: 7414649972134789761, guid: a19be1ab094601e46ad775184935702a,
+        type: 3}
+      propertyPath: conversations.Array.size
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 7414649972134789761, guid: a19be1ab094601e46ad775184935702a,
+        type: 3}
+      propertyPath: conversations.Array.data[1].NPCSentence.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7414649972134789761, guid: a19be1ab094601e46ad775184935702a,
+        type: 3}
+      propertyPath: conversations.Array.data[1].NPCSentence.Array.data[0]
+      value: "\u201CI\u2019d not venture further, newcomer. Grim things lurk in that
+        there forest. \u2018Tis dangerous for one not equipped to handle it.\u201D"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7414649972134789761, guid: a19be1ab094601e46ad775184935702a,
+        type: 3}
+      propertyPath: conversations.Array.data[1].NPCSentence.Array.data[1]
+      value: "\u201CWho am I? Why, I am the Keeper.\u201D"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7414649972134789761, guid: a19be1ab094601e46ad775184935702a,
+        type: 3}
+      propertyPath: conversations.Array.data[1].NPCSentence.Array.data[2]
+      value: "\u201C\u2018Tis an archaic job, the Keeper. A remnant of times past,
+        when the mage still lurked in the forest that gives me my title.\u201D"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7414649972134789761, guid: a19be1ab094601e46ad775184935702a,
+        type: 3}
+      propertyPath: conversations.Array.data[1].NPCSentence.Array.data[3]
+      value: "\u201CBest forget I ever said that. Anyways, best be off with you.\u201D"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7414649972134789761, guid: a19be1ab094601e46ad775184935702a,
+        type: 3}
+      propertyPath: conversations.Array.data[1].NPCSentence.Array.data[4]
+      value: '"Best be off with you"'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7414649972134789761, guid: a19be1ab094601e46ad775184935702a,
+        type: 3}
+      propertyPath: conversations.Array.data[1].playerSentence.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7414649972134789761, guid: a19be1ab094601e46ad775184935702a,
+        type: 3}
+      propertyPath: conversations.Array.data[1].playerSentence.Array.data[0]
+      value: Who are you?
+      objectReference: {fileID: 0}
+    - target: {fileID: 7414649972134789761, guid: a19be1ab094601e46ad775184935702a,
+        type: 3}
+      propertyPath: conversations.Array.data[1].playerSentence.Array.data[1]
+      value: The Keeper?
+      objectReference: {fileID: 0}
+    - target: {fileID: 7414649972134789761, guid: a19be1ab094601e46ad775184935702a,
+        type: 3}
+      propertyPath: conversations.Array.data[1].playerSentence.Array.data[2]
+      value: A mage?
+      objectReference: {fileID: 0}
+    - target: {fileID: 7414649972134789761, guid: a19be1ab094601e46ad775184935702a,
+        type: 3}
+      propertyPath: conversations.Array.data[1].playerSentence.Array.data[3]
+      value: No wait, I need answers! What and who?
+      objectReference: {fileID: 0}
+    - target: {fileID: 7414649972134789761, guid: a19be1ab094601e46ad775184935702a,
+        type: 3}
+      propertyPath: conversations.Array.data[1].playerSentence.Array.data[4]
+      value: ...
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a19be1ab094601e46ad775184935702a, type: 3}
+--- !u!4 &966015406 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2822188623298881352, guid: a19be1ab094601e46ad775184935702a,
+    type: 3}
+  m_PrefabInstance: {fileID: 966015405}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &978239005
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6638,7 +6785,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -35}
+  m_AnchoredPosition: {x: 0, y: -96}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1545671552
@@ -6688,11 +6835,11 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 12
+  m_fontSizeBase: 12
   m_fontWeight: 400
-  m_enableAutoSizing: 1
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 5
   m_fontSizeMax: 72
   m_fontStyle: 0
   m_HorizontalAlignment: 1
@@ -8293,118 +8440,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 31a710b3bcdfb2e48b5ba67995778c54, type: 3}
---- !u!1 &1822461089
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1822461090}
-  - component: {fileID: 1822461094}
-  - component: {fileID: 1822461093}
-  - component: {fileID: 1822461092}
-  - component: {fileID: 1822461091}
-  m_Layer: 0
-  m_Name: Gravestone
-  m_TagString: Ground
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1822461090
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1822461089}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.146, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 293294704}
-  m_RootOrder: 16
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1822461091
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1822461089}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 151c982714984fd4cb6af3b5a7e8cfe0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  health: 100
-  corruptionScript: {fileID: 0}
---- !u!65 &1822461092
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1822461089}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &1822461093
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1822461089}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &1822461094
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1822461089}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!4 &1825521385 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1507636620937791777, guid: 7097ba7ba649e1f41bba232312bdcbd8,
@@ -14520,8 +14555,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: -280, y: -50}
+  m_SizeDelta: {x: 100, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2108557830
 MonoBehaviour:
@@ -14574,7 +14609,7 @@ MonoBehaviour:
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
-  m_fontSizeMin: 18
+  m_fontSizeMin: 5
   m_fontSizeMax: 72
   m_fontStyle: 0
   m_HorizontalAlignment: 1
@@ -14820,6 +14855,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 293294704}
     m_Modifications:
+    - target: {fileID: 2890851758448750896, guid: 56a4b3192e60ac345824fd6c8f6139b3,
+        type: 3}
+      propertyPath: m_Drag
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2890851758448750896, guid: 56a4b3192e60ac345824fd6c8f6139b3,
+        type: 3}
+      propertyPath: m_AngularDrag
+      value: 0.08
+      objectReference: {fileID: 0}
     - target: {fileID: 2890851758448750898, guid: 56a4b3192e60ac345824fd6c8f6139b3,
         type: 3}
       propertyPath: m_Name
