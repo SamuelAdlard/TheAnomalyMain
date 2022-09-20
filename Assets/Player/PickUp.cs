@@ -55,12 +55,12 @@ public class PickUp : MonoBehaviour
             lineRenderer.SetPosition(0, pickUpPoint.position);
             lineRenderer.SetPosition(1, item.position);
             Vector3 targetVector = pickUpPoint.position - item.position;
-            item.AddForce(targetVector * holdStrength);
+            item.AddForce(targetVector * Time.deltaTime * holdStrength);
         }
         else if(holding && item.GetComponent<Item>().type == "Cart")
         {
             Vector3 targetVector = transform.parent.position - item.position;
-            item.AddForce(targetVector * holdStrength);
+            item.AddForce(targetVector * Time.deltaTime * holdStrength);
             transform.parent.GetComponent<PlayerMovement>().Speed = cartSpeed;
         }
         
