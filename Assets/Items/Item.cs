@@ -26,7 +26,7 @@ public class Item : MonoBehaviour
     private void OnCollisionEnter(Collision collision)
     {
         
-        if (collision.gameObject.CompareTag("Platform") && !carried)
+        if (collision.gameObject.CompareTag("Platform"))
         {
             inCart = true;
             rb.isKinematic = true;
