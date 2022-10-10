@@ -14,20 +14,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AmbientColor:
     serializedVersion: 2
-    key0: {r: 0, g: 0.13692284, b: 1, a: 1}
-    key1: {r: 0.9490196, g: 0.77254903, b: 0.16862746, a: 1}
-    key2: {r: 1, g: 1, b: 1, a: 1}
-    key3: {r: 0.9842579, g: 0.9431977, b: 0.8048311, a: 0}
-    key4: {r: 0.9340035, g: 0.7618646, b: 0.18178208, a: 0}
-    key5: {r: 0, g: 0.09729433, b: 1, a: 0}
-    key6: {r: 0, g: 0.09729433, b: 1, a: 0}
+    key0: {r: 0.03470988, g: 0.107637264, b: 0.5660378, a: 1}
+    key1: {r: 0.5849056, g: 0.47946787, b: 0.11863652, a: 1}
+    key2: {r: 0.3584906, g: 0.3584906, b: 0.3584906, a: 1}
+    key3: {r: 0.3584906, g: 0.3584906, b: 0.3584906, a: 0}
+    key4: {r: 0.4245283, g: 0.4245283, b: 0.4245283, a: 0}
+    key5: {r: 0.6132076, g: 0.49853247, b: 0.112807065, a: 0}
+    key6: {r: 0.022828398, g: 0.07330948, b: 0.5377358, a: 0}
     key7: {r: 0, g: 0, b: 0, a: 0}
     ctime0: 0
     ctime1: 16577
     ctime2: 25829
-    ctime3: 38743
-    ctime4: 49730
-    ctime5: 65535
+    ctime3: 33924
+    ctime4: 39899
+    ctime5: 49730
     ctime6: 65535
     ctime7: 0
     atime0: 0
@@ -39,7 +39,7 @@ MonoBehaviour:
     atime6: 0
     atime7: 0
     m_Mode: 0
-    m_NumColorKeys: 6
+    m_NumColorKeys: 7
     m_NumAlphaKeys: 2
   DirectionalColor:
     serializedVersion: 2
