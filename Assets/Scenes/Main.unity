@@ -227,7 +227,7 @@ PrefabInstance:
     - target: {fileID: 2402562201134345352, guid: 91a0499c96634bd4989b7c1dfd840572,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2619.0679
+      value: 2616.92
       objectReference: {fileID: 0}
     - target: {fileID: 2402562201134345352, guid: 91a0499c96634bd4989b7c1dfd840572,
         type: 3}
@@ -242,37 +242,37 @@ PrefabInstance:
     - target: {fileID: 2402562201134345352, guid: 91a0499c96634bd4989b7c1dfd840572,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.7071067
+      value: 0.70416576
       objectReference: {fileID: 0}
     - target: {fileID: 2402562201134345352, guid: 91a0499c96634bd4989b7c1dfd840572,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.7071068
+      value: -0.7041659
       objectReference: {fileID: 0}
     - target: {fileID: 2402562201134345352, guid: 91a0499c96634bd4989b7c1dfd840572,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0.06442499
       objectReference: {fileID: 0}
     - target: {fileID: 2402562201134345352, guid: 91a0499c96634bd4989b7c1dfd840572,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0.064425
       objectReference: {fileID: 0}
     - target: {fileID: 2402562201134345352, guid: 91a0499c96634bd4989b7c1dfd840572,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: -79.545
       objectReference: {fileID: 0}
     - target: {fileID: 2402562201134345352, guid: 91a0499c96634bd4989b7c1dfd840572,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: -90
       objectReference: {fileID: 0}
     - target: {fileID: 2402562201134345352, guid: 91a0499c96634bd4989b7c1dfd840572,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: 90
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 91a0499c96634bd4989b7c1dfd840572, type: 3}
